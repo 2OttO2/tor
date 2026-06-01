@@ -1,0 +1,30 @@
+html,body{
+  width:100%;
+  height:100%;
+  margin:0;
+  color:#a55ed8;
+}
+body{
+
+  background-image:url("./assets/tor.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+
+
+}
+
+#gambi{
+    
+
+    &:hover #textoPrincipal,
+    &:hover #formulario  {
+      transition: transform 0.4s ease;
+      transform:scale(1.15);
+      border-color: #f0a504;
+    }
+}
+#textoPrincipal, #formulario{
+  transition:transform 0.4s ease;
+}
+
